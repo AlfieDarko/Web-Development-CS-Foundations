@@ -2,13 +2,14 @@
 
 
 <h2>Synopsis</h2>
-I've created this git repository to document the development of my skills and knowledge in web development and build a strong foundational base in the relevant computer science subjects<br> 
+<p>I've created this git repository to document the development of my skills and knowledge in web development and build a strong foundational base in the relevant computer science subjects</p>
 
 <h2>Motivation</h2>
-This project exists mainly to demonstrate to others my self-learning process. I've included the notes and projects for anybody to look at and get an idea of how I have progressed and developed myself as a developer.<br> The greatest thing about the internet is the democratisation of information. Like no other time in history, more people from more backgrounds and circumstances have access to the resources and information that they wouldn't have previously. Through hardwork, dedication and coffee, I hope to be a shining example of what can be accomplished with a laptop and some free-time.
-<br><br>
-Feel free to follow the <a href="https://trello.com/b/89JlGcM1/my-web-dev-learning-board">Trello board</a> I am using to document my progress and get an idea of how long each task took in relation to pomodoro measurement!  
-<br><br>
+<p>This project exists mainly to demonstrate to others my self-learning process. I've included the notes and projects for anybody to look at and get an idea of how I have progressed and developed myself as a developer.<br> The greatest thing about the internet is the democratisation of information. Like no other time in history, more people from more backgrounds and circumstances have access to the resources and information that they wouldn't have previously. Through hardwork, dedication and coffee, I hope to be a shining example of what can be accomplished with a laptop and some free-time.<p>
+
+
+<p>Feel free to follow the <a href="https://trello.com/b/89JlGcM1/my-web-dev-learning-board">Trello board</a> I am using to document my progress and get an idea of how long each task took in relation to pomodoro measurement!</p>
+
 <p>Also here you can find the path I have been following commencing on the 23rd December 2016. <br/> <a href="https://forum.freecodecamp.com/t/computer-guide-web-development-with-computer-science-foundations-comprehensive-path/64516"> Web Development with Computer Science Foundations - comprehensive path by @P1xt. </a></p><br>
 
 
