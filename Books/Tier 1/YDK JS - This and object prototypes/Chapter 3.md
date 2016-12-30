@@ -12,7 +12,7 @@ var myObj = {
 key: value
 /// ...
 };
-''
+```
 
 Declarative
 ```
@@ -149,7 +149,7 @@ var myArray = [ "foo", 42, "bar"];
 myArray.baz = "baz";
 myArray.length; //3
 myArray.baz; //"baz"
-'''
+```
 
 ``` 
 var myArray = ["foo", 42, "bar" ];
@@ -161,7 +161,8 @@ myArray[3]; // "baz"
 
 Property Descriptors
 Does what it says on the tin
-'''
+
+```
 var myObject = {
 a:2
 };
@@ -174,7 +175,7 @@ Object.getOwnPropertyDescriptor (myObject, "a");
 //  enumerable: true,
 //  configurable: true
 //}
-
+```
 USe object.defineProperty(..) to add or modify propertie
 characteristics
 FOr example:
@@ -196,7 +197,7 @@ can change peroperty to not writable and would silently fail. in strict mode, yo
 Configurable
 As long as property is confugrable we can modify its definition. 
 Using defineProperty(..)
-'''
+```
 var myObject = {
 a: 2
 };
