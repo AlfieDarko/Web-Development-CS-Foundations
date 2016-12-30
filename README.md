@@ -108,7 +108,7 @@ This project exists mainly to demonstrate to others my self-learning process. I'
 <li><a href="https://material.google.com/">Material Design</a>&nbsp;- lean on this when you need a structure for creating a minimalistic but awesome looking site</li>
 <li><a href="https://www.materialpalette.com/">Material Palette</a>&nbsp;- for selecting color schemes</li>
 <li><a href="https://www.wirify.com/">Wirify</a>&nbsp;- for quickly turning a web page into a wireframe so you can see the big picture instead of all the graphics</li>
-</ul>
+</ul><br>
 <h2>Things to keep in mind</h2>
 <ul>
 <li>have git commits every week, most of the days of the week</li>
