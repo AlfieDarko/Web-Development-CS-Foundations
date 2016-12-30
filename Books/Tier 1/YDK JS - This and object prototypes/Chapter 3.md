@@ -7,18 +7,18 @@ Objects come in 2 forms.
 -Constructed form
 
 Literal
-'''
+```
 var myObj = {
 key: value
 /// ...
 };
-'''
+''
 
 Declarative
-'''
+```
 var myObj = new Object();
 myObj.key = value;
-'''
+```
 
 More or less the same. Literal form is most commonly used.
 
@@ -54,7 +54,7 @@ Built-in Objects
 can be used as a constructer thus = newly constructed object
 for instance
 
-'''
+```
 var strPrimitive = "I am a string";
 typeof strPrimitive; // "string"
 strPrimitive instanceof String; //false
@@ -65,19 +65,19 @@ strObject instanceof String; // true
 
 // inspect the object sub-type 
 Object.prototype.toString.call ( strObject);
-'''
+```
 
 "I am a string" is not an obhect. primitive literal + immutable value.
 String object required to perform operations on it.
 JS auto-convert to String object.
 
 Consider
-''
+```
 var strPrimitive = "I am a string";
 
 console.log(strPrimitive.length); // 13
 console.log( strPrimitive.charAt(3)); / "m"
-''
+```
 
 both cases, property auto-coerce called  into a string object, same thing
 happens with numbers.
@@ -92,14 +92,14 @@ Contents
 value stored implementation dependant way.
 property references are stored in objects.
 
-'''
+```
 var myObject = {
 a:2
 };
 
 myObject.a; //2
 myObject["a"]; //2
-'''
+```
 .a and ["a"] access same location.
 Property access/ key access respectively.
 
@@ -114,7 +114,7 @@ Property names are always strings.
  ie myObject[prefix + name]
  es6 ADDS computed property names
  
- '''
+ ```
  var prefix = "foo";
  
  var myObject = {
@@ -124,7 +124,7 @@ Property names are always strings.
  
  myObject["foobar"]; // hello
  myObject["foobaz"]; // world
-'''
+```
 
 function = method is JavaScript
 
@@ -134,29 +134,29 @@ Slightly more structured.
 Numeric indexing
 Values are stored in locations called indices.
 
-'''
+```
 var myArray = [ "foo", 42, "bar" ];
 
 myArray.length; //3
 
 myArray[0]; // "foo"
 myArray[2]; //"bar"
-'''
+```
 Array also objects
 
-'''
+```
 var myArray = [ "foo", 42, "bar"];
 myArray.baz = "baz";
 myArray.length; //3
 myArray.baz; //"baz"
 '''
 
-''' 
+``` 
 var myArray = ["foo", 42, "bar" ];
 myArray["3"] = "baz";
 myArray.length; //4
 myArray[3]; // "baz"
-'''
+```
 
 
 Property Descriptors
@@ -179,7 +179,7 @@ USe object.defineProperty(..) to add or modify propertie
 characteristics
 FOr example:
 
-'''
+```
 var myObject = {};
 
 Object.defineProperty(myObject, "a", {
@@ -188,7 +188,7 @@ configurable: true,
 enumerable: true
 });
 myObject.a //2
-'''
+```
 
 can change peroperty to not writable and would silently fail. in strict mode, you would get a TypeError.
 
@@ -221,7 +221,7 @@ configurable: true,
 enumerable: true
 }); //TypeError
 
-'''
+```
 if writable is changed to false, you cant change it back.
 Also cant delete if nonconfigurable.
 
@@ -233,7 +233,7 @@ Immutability
 All previous approaches create shallow immutability.
 if object has reference to another object, can still be mutated
 
-'''
+```
 myImmutableObject.foo; // [1,2,3]
 myImmutableObject.foo.push(4);
 myImmutableObject.foo; // [1,2,3,4]
@@ -246,7 +246,8 @@ Prevent extensions
 Provent an object from having new properies added
 Object.preventExtensions(..)
 
-'''
+
+```
 var myObject = { 
 a:2};
 
@@ -254,7 +255,7 @@ Object.preventExtensions (myObject);
 
 myObject.b = 3;
 myObject.b; // undefined
-'''
+```
 Seal.
 PreventExtensions + configurable: false
 
@@ -268,7 +269,7 @@ configurable + writable false
 GET AND SET
 OV
 
-'''
+```
 var myObject = {
 // define a getter for 'a'
 get a() {
@@ -290,8 +291,8 @@ enumerable: true
 
 myObject.a; //2
 myObject.b; //4
-'''
-'''
+```
+```
 var myObject = {
     // define a getter for 'a'
     get a() {
@@ -307,7 +308,7 @@ var myObject = {
 
 myObject.a = 2;
 myObject.a; // 4
-'''
+```
 .
 
 Existence
@@ -324,7 +325,7 @@ a: 2
 myObject.hasOwnProperty("a"); // true
 myObject.hasOwnProperty("b"); // false
 
-'''
+```
 
 in checks if property is in the object. also checks prototype chain.
 hasOwnProperty doesnt check prototype chain.
@@ -332,7 +333,7 @@ hasOwnProperty doesnt check prototype chain.
 
 Enumeration.
 Basically makes property visible or non visible to for loops
-'''
+```
 var myObject = {};
 
 Object.defineProperty(
@@ -341,7 +342,7 @@ myObject,
 // make 'a' enumerable as normal
 { enumerable: true, value: 2}
 );
-'''
+```
 
 can also be set with defineProperty
 .
@@ -358,7 +359,7 @@ some(...) keeps going until the end or callback returns a true or truthy.
 
 Iterate over values directly instead of array index?
 
-'''
+```
 var myArray = [1,2,3 ];
 
 for (var v of myArray) {
@@ -367,13 +368,13 @@ console.log ( v );
 // 1
 // 2
 // 3
-'''
+```
 
 Possible to define own defauly @@iterator.
 
 Can iterate for ever. or produce random values 100 times ie.
 
-''' 
+``` 
 var randoms = {
 [Symbol.iterator]: function() {
 return{
@@ -391,5 +392,5 @@ randoms_pool.push(n);
 // don't proceed unbounded!
 if (randoms_pool.length === 100) break;
 }
-'''
+```
 
