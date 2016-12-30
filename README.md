@@ -1,5 +1,15 @@
-<h1>Web Development &amp; CS Foundations</h1>
+<h1>Web Development & Computer Science Foundations</h1>
+
+
+<h2>Synopsis</h2>
+I've created this git repository to document the development of my skills and knowledge in web development and build a strong foundational base in the relevant computer science subjects<br> 
+
+<h2>Motivation</h2>
+This project exists mainly to demonstrate to others my self-learning process. I've included the notes and projects for anybody to look at and get an idea of how I have progressed and developed myself as a developer.<br> The greatest thing about the internet is the democratisation of information. Like no other time in history, more people from more backgrounds and circumstances have access to the resources and information that they wouldn't have previously. Through hardwork, dedication and coffee, I hope to be a shining example of what can be accomplished with a laptop and some free-time.
+
 <p>Below you can find the path I have been following commencing on the 23. December 2016. <br /><br /><br /> from <a href="https://forum.freecodecamp.com/t/computer-guide-web-development-with-computer-science-foundations-comprehensive-path/64516"> Web Development with Computer Science Foundations - comprehensive path by @P1xt. </a></p>
+
+<h2> Learning Path</h2>
 <h2>The list - work down it in order</h2>
 <h3>Tier 1 - get started</h3>
 <ul>
