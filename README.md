@@ -10,7 +10,7 @@
 
 <p>Feel free to follow the <a href="https://trello.com/b/89JlGcM1/my-web-dev-learning-board">Trello board</a> I am using to document my progress and get an idea of how long each task took in relation to pomodoro measurement!</p>
 
-<p>Also here you can find the path I have been following commencing on the 23rd December 2016. <br/> <a href="https://forum.freecodecamp.com/t/computer-guide-web-development-with-computer-science-foundations-comprehensive-path/64516"> Web Development with Computer Science Foundations - comprehensive path by @P1xt. </a></p><br>
+<p>Also here you can find the path I have been following commencing on the 23rd December 2016. <br/> <a href="https://forum.freecodecamp.com/t/computer-guide-web-development-with-computer-science-foundations-comprehensive-path/64516"> Web Development with Computer Science Foundations - comprehensive path by @P1xt. </a></p>
 
 
 <h2> Learning Path</h2>
