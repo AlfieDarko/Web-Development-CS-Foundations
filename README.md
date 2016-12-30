@@ -7,11 +7,11 @@ I've created this git repository to document the development of my skills and kn
 <h2>Motivation</h2>
 This project exists mainly to demonstrate to others my self-learning process. I've included the notes and projects for anybody to look at and get an idea of how I have progressed and developed myself as a developer.<br> The greatest thing about the internet is the democratisation of information. Like no other time in history, more people from more backgrounds and circumstances have access to the resources and information that they wouldn't have previously. Through hardwork, dedication and coffee, I hope to be a shining example of what can be accomplished with a laptop and some free-time.
 
-<p>Below you can find the path I have been following commencing on the 23. December 2016. <br /><br /><br /> from <a href="https://forum.freecodecamp.com/t/computer-guide-web-development-with-computer-science-foundations-comprehensive-path/64516"> Web Development with Computer Science Foundations - comprehensive path by @P1xt. </a></p>
+<p>Below you can find the path I have been following commencing on the 23. December 2016. <br /> Original link <a href="https://forum.freecodecamp.com/t/computer-guide-web-development-with-computer-science-foundations-comprehensive-path/64516"> Web Development with Computer Science Foundations - comprehensive path by @P1xt. </a></p><br>
 
 <h2> Learning Path</h2>
 <h2>The list - work down it in order</h2>
-<h3>Tier 1 - get started</h3>
+<h4>Tier 1 - get started</h4>
 <ul>
 <li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&amp;%20going/README.md#you-dont-know-js-up--going">You Don't Know JS: Up &amp; Going</a></li>
 <li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&amp;%20closures/README.md#you-dont-know-js-scope--closures">You Don't Know JS: Scope &amp; Closures</a></li>
@@ -97,6 +97,7 @@ This project exists mainly to demonstrate to others my self-learning process. I'
 <li>Project: Clone <a href="http://learnharmony.org/#/?_k=0okjs7">Learn Harmony</a></li>
 <li>Project: Clone Slack - the functionality should be complete to the point that one user can create a room, invite other users, and all users of that room can real-time chat. The room should be secure and inaccessible to anyone but those invited.</li>
 </ul>
+<br>
 <h2>Bookmarks you should have</h2>
 <ul>
 <li><a href="https://surge.sh/">surge.sh</a>&nbsp;- deploy your frontend projects here (or use github pages)</li>
@@ -152,7 +153,7 @@ This project exists mainly to demonstrate to others my self-learning process. I'
 </ul>
 <h4>Additional Resources</h4>
 <p><a href="https://openstax.org/subjects">OpenStax</a>&nbsp;- Open Source textbooks on a variety of University level topics, check here if you want a reference math or physics textbook</p>
-<hr />
+<hr /><br>
 <h4>Attribution</h4>
 <ul>
 <li>Many of the courses listed closely mimic the list from <a href="https://github.com/open-source-society/computer-science">Open Source Society University - Computer Science</a></li>
