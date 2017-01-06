@@ -127,3 +127,115 @@ width: 30%;
 
 This tech is caled clearfix.
 
+Removing spaces between inline-block elements.
+
+1) put open `<section>` tag on same line as closed `</section>`
+
+```
+<header>...</header>
+<section>
+...
+</section><section>
+...
+</section><section>
+...
+</section>
+```
+
+Ensures space between block elements dont exist. No space when renderered.
+
+2) open HTML comment directly after inline block element closing and close it.
+Comments out any space
+
+``` 
+<header>...</header>
+<section>
+...
+</section> <!--
+--> <section>
+...
+</section> <!--
+--><section>
+...
+</section>
+<footer> ... </footer>
+```
+
+Creating Reusable layouts
+
+Best to make modular styles you can reuse. 
+Floats vs Inline Block elements (You chose)
+
+Perhaps inline block to create grid and then float to wrap content.
+new css coming out soon. Flex and grid.
+
+```
+.col-1-3,
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+```
+by comma-seperating selectors, you can bind the same styles to multple selectors at one time.
+
+<h5> Uniquely Positioning Elements</h5>
+
+We may want to precisely position an element and floats or inline wont work.
+Sometimes floats fuck shit up. Inline block elements can be awkward unless you have columns.
+
+Every element position value is static by default. = exists in normal flow of document. doesnt accept any box offset properties.
+Commonly overwritten with a relative or absolute value.
+
+<b>Relative Positioning</b>
+
+relative value for position property allows elements to appear within normal page flow. Leaving space  as intended while not letting other things to flow around it. 
+Also allows an elements display position to be modified with box offset properties
+
+```
+<div>...</div>
+<div class="offset">...</div>
+<div>...</div>
+```
+
+```
+div {
+height: 100px;
+width: 100px;
+}
+
+.offset {
+left: 20px;
+position: relative;
+top: 20px;
+}
+```
+
+offset means offset the postion by...
+
+Second `<div>` with class of offset has position value of relative and two box offset properties left and top. No other elements can move into its space. left=right top=bottom.
+
+<b>Absolute Positioning</b>
+absolute value = space not reserved.
+moved in relation to their closest relatively positioned parent element. 
+if no parent, then position will be in relation to `<body>`.
+
+``` 
+<section>
+<div class="offset">...</div>
+</section>
+```
+
+```
+section {
+position:relative;
+}
+
+div {
+position: absolute;
+right: 20px;
+top: 20px;
+}
+```
+
+section element relatively position but doesnt include box offset properties. = its position doesnt change.
+div element position in relation to section.
