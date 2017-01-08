@@ -3,7 +3,7 @@
 <ul>
 <li> <a href="CURRICULUM.md"> Curriculum </a></li>
 <li><a href="FAQs.md"> FAQs</a></li>
-<li> <a href="KNOWLEDGE LOG.md"> Knowledge Log</a></li>
+<li> <a href="KNOWLEDGE%20LOG.MD"> Knowledge Log</a></li>
 </ul><br>
 <h2>Synopsis</h2>
 <p>I've created this git repository to document the development of my skills and knowledge in web development and build a strong foundational base in the relevant computer science subjects</p>
