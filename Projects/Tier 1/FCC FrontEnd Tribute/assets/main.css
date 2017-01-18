@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+=====Grid
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+
+/*
+  ====Clearfix
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+=======Row
+*/
+
+.row,
+.row-alt {
+  min-width: 960px;
+}
+.row {
+  background: #fff;
+  padding: 0px 0 44px 0;
+}
+
+.background {
+    color: wheat;
+}
+
+/*
+=======Header IMG
+*/
+
+.img-container {
+    display:block;
+  min-height: 600px;
+  background-image: url(images/imageedit_2_7279877435.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  /*padding: 40px; (If don't want to set min-height or some image content is there) */
+        width: 100%;
+        height: auto;
+}
+
+/*
+======Typography
+*/
+
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 150px;
+  line-height: 44px;
+ letter-spacing: 10px;
+
+}
+h3 {
+  font-size: 90px;
+}
+h4 {
+  font-size: 48px;
+}
+
+.bigfont{
+    font-size: 46;
+}
+
+
+h2 { 
+   position: relative; 
+   left: 20%; 
+   width: 50%; 
+ font-family: Lato;
+        opacity: 0.5;
+
+}
+
+
+h3 { 
+   position: absolute; 
+   top: 600px; 
+   left: 15%; 
+   width: 50%; 
+    color: white;
+ font-family: Lato;
+        opacity: 0.9;
+     letter-spacing: 10px;
+}
+
+
+h4 { 
+   position: absolute; 
+   top: 200px; 
+   left: 15%; 
+   width: 80%; 
+    color: #ffffff;
+ font-family: Lato;
+        opacity: 0.9;
+     letter-spacing: 5px;
+}
+
+h4 span { 
+    background-color:rgba(0, 0, 0, 0.95);    
+}
+
+.titlequote {
+    font-style: italic;
+}
+
+.h2second {
+    color: #052F90;
+    opacity: 100;
+}
+.h2first {
+    color: #085065;
+}
+
+p, li {
+    font-size: 16px;
+    font-family: lato;
+}
