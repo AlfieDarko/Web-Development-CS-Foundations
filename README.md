@@ -1,10 +1,6 @@
 <h1>Web Development & Computer Science Foundations</h1>
 
-<ul>
-<li> <a href="CURRICULUM.md"> Curriculum </a></li>
-<li><a href="FAQs.md"> FAQs</a></li>
-<li> <a href="KNOWLEDGE%20LOG.MD"> Knowledge Log</a></li>
-</ul><br>
+<br>
 <h2>Synopsis</h2>
 <p>I've created this git repository to document the development of my skills and knowledge in web development and build a strong foundational base in the relevant computer science subjects</p>
 
@@ -22,11 +18,11 @@ The greatest thing about the internet is the democratisation of information. Lik
 <h4>The list - work down it in order</h4>
 <h3>Tier 1 - get started</h3>
 <ul>
-<del><li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&amp;%20going/README.md#you-dont-know-js-up--going">You Don't Know JS: Up &amp; Going</a></li></del>
-<del><li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&amp;%20closures/README.md#you-dont-know-js-scope--closures">You Don't Know JS: Scope &amp; Closures</a></li></del>
-<del><li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes">You Don't Know JS: this &amp; Object Prototype</a></li></del>
-<del><li>Course: <a href="http://learn.shayhowe.com/html-css/">Learn to Code HTML &amp; CSS</a></li></del>
-<h3><li>Project: Portfolio from the frontend section of FCC</li></h3>
+<li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&amp;%20going/README.md#you-dont-know-js-up--going">You Don't Know JS: Up &amp; Going</a></li>
+<li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&amp;%20closures/README.md#you-dont-know-js-scope--closures">You Don't Know JS: Scope &amp; Closures</a></li>
+<li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes">You Don't Know JS: this &amp; Object Prototype</a></li>
+<li>Course: <a href="http://learn.shayhowe.com/html-css/">Learn to Code HTML &amp; CSS</a></li>
+<li>Project: Portfolio from the frontend section of FCC</li>
 <li>Course: <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!">Introduction to Computer Science - CS50</a></li>
 <li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&amp;%20grammar/README.md#you-dont-know-js-types--grammar">You Don't Know JS: Types &amp; Grammar</a></li>
 <li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&amp;%20performance/README.md#you-dont-know-js-async--performance">You Don't Know JS: Async &amp; Performance</a></li>
@@ -107,3 +103,69 @@ The greatest thing about the internet is the democratisation of information. Lik
 <li>Project: Clone Slack - the functionality should be complete to the point that one user can create a room, invite other users, and all users of that room can real-time chat. The room should be secure and inaccessible to anyone but those invited.</li>
 </ul>
 <br>
+<br>
+<h2>Bookmarks you should have</h2>
+<ul>
+<li><a href="https://surge.sh/">surge.sh</a>&nbsp;- deploy your frontend projects here (or use github pages)</li>
+<li><a href="https://developer.mozilla.org/en-US/">MDN</a>&nbsp;- look HTML, CSS, and JavaScript stuff up here</li>
+<li><a href="https://dashboard.heroku.com/">Heroku</a>&nbsp;- deploy your fullstack projects here (or hyperdev)</li>
+<li><a href="https://firebase.google.com/">Firebase</a>&nbsp;or <a href="https://mlab.com/">mLab</a>&nbsp;- database hosting</li>
+<li><a href="https://github.com/">GitHub</a>&nbsp;- store your code here</li>
+<li><a href="https://material.google.com/">Material Design</a>&nbsp;- lean on this when you need a structure for creating a minimalistic but awesome looking site</li>
+<li><a href="https://www.materialpalette.com/">Material Palette</a>&nbsp;- for selecting color schemes</li>
+<li><a href="https://www.wirify.com/">Wirify</a>&nbsp;- for quickly turning a web page into a wireframe so you can see the big picture instead of all the graphics</li>
+</ul><br>
+<h2>Things to keep in mind</h2>
+<ul>
+<li>have git commits every week, most of the days of the week</li>
+<li>try to get in one of <a class="mention" href="https://forum.freecodecamp.com/users/tropicalchancer">@tropicalchancer</a>'s cohorts - be active once you're in</li>
+<li>code in your own editor, if you don't know where to start start with Brackets</li>
+<li>try to pick at least one language besides JavaScript, and solve some of the algorithmic challenges with that language (Good choices: Java, Python, Golang, Rust)</li>
+</ul>
+<h4>For each item you should:</h4>
+<ul>
+<li>take notes, on a blog, in markdown, wherever, somewhere - not about what you read, or about what the instructor said - about what you learned</li>
+<li>build something - even if it's just a 20 line function that computes something you find interesting</li>
+<li>code in your own editor - if you don't know which to pick, start with Brackets</li>
+<li>if you build something, document it and test it as appropriate</li>
+<li>do the exercises, build the projects - fully, not some scaled down halfassery</li>
+</ul>
+<h4>For four (or more) projects of your choosing</h4>
+<ul>
+<li>Seek 1-3 other developers to collaborate on the project</li>
+<li>Coordinate with the team to complete the project</li>
+<li>Build the project out to a full production quality application</li>
+<li>Invite others who are not associated with the team to rigorously test the final product.</li>
+<li>Resolve any legitimate issues found</li>
+</ul>
+<h4>Once per month - do two or more of the following:</h4>
+<ul>
+<li>Write up a comprehensive blog post or markdown entry in a repository detailing the high points of what you learned that month</li>
+<li>Watch <a href="https://www.youtube.com/watch?v=4NIb9l3imAo">this video</a>&nbsp;and <a href="https://www.youtube.com/watch?v=Eg5-tdAwclo">this video</a>&nbsp;- on interviewing</li>
+<li>Read <a href="http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html">this</a>&nbsp;- on crafting a resume</li>
+<li>Do one lesson from <a href="https://learn.saylor.org/course/view.php?id=345">CUST104: Business Communications</a></li>
+<li>Live stream what you're working on for an hour. Or, lend a hand to someone who needs help by screensharing and walking them through it.</li>
+<li>Catch up on industry reading on sites like <a href="https://www.joelonsoftware.com/">Joel on Software</a>, <a href="https://blog.codinghorror.com/">Coding Horror</a>, <a href="https://css-tricks.com/">CSS Tricks</a>, <a href="http://alistapart.com/articles">A List Apart</a>, <a href="http://uxmyths.com/">UX Myths</a>, <a href="http://javascriptweekly.com/">JavaScript Weekly</a></li>
+</ul>
+<h4>If you need a breather from an item, do one of these, then get back to it</h4>
+<ul>
+<li>complete a project from FCC that isn't included in this list</li>
+<li>pick a pet web development project you can code in a week and complete it</li>
+<li>write a guide for the FCC wiki or create a video tutorial and post it to YouTube</li>
+<li>redo any of the algorithmic type projects you've already completed from the list, in a language other than JavaScript</li>
+<li>pick an open source project from <a href="https://www.codetriage.com/">Code Triage</a>&nbsp;and contribute to fixing an open issue</li>
+<li>visit the FCC forum and pick a couple of the toughest questions, that people are having trouble getting help with, and help them</li>
+<li>code a flash cards application, for jotting quick notes you can use to quiz yourself later</li>
+</ul>
+<h4>Additional Resources</h4>
+<p><a href="https://openstax.org/subjects">OpenStax</a>&nbsp;- Open Source textbooks on a variety of University level topics, check here if you want a reference math or physics textbook</p>
+<hr /><br>
+<h4>Attribution</h4>
+<ul>
+<li>Many of the courses listed closely mimic the list from <a href="https://github.com/open-source-society/computer-science">Open Source Society University - Computer Science</a></li>
+<li>Many of the topics selected to augment were inspired by <a href="https://github.com/jwasham/google-interview-university">Google Interview University</a></li>
+<li>Many of the projects were inspired by (or are directly taken from) <a href="https://www.freecodecamp.com/">Free Code Camp</a>&nbsp;and <a href="http://www.theodinproject.com/">The Odin Project</a></li>
+</ul>
+<p><strong>Note:</strong> Don't ask me how long this will take you. I do not know your aptitude, determination, or propensity for flitting off to check Facebook every 5 minutes, nor do I know how much time you have available to devote daily. Begin working through it and gauge for yourself the speed with which you progress. I promise you, if you just start from the top and work your way down, you won't accidentally learn something useless while you figure out your learning pace.</p>
+<p><strong>Note</strong>: I took some care to ensure that this list contains only resources which are legitimately free. You may need to give Heroku a credit card if you host all your projects there. If you don't want to /can't do that, just deploy locally, deploy to heroku, and then delete the app from heroku once you've moved on to a different project (that won't work for FCC certification because it needs to be accessible to meet the guidelines, but for the purposes of this list, once you're done with a project, I don't see a lot of value in persisting it on the web while you're working on something else --- UNTIL, you need to polish your portfolio for a job application, then you would want to have your best projects running online).</p>
+<p>Although I took heavy inspiration from many resources when creating this guide, none of it is a cut and paste path from somewhere else. Often, I substituted courses (especially in the case of Coursera) to ensure that the entire course was available for free and required no purchases of any kind. Where possible, I tried to align projects to reinforce prior learning.</p>
