@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Quotes Machine</title>
+    <title></title>
 </head>
 
-<body onload="getRandomQuote()">
+<body>
+   <header>
+   <div class="row"> 
+    <div class="col-md-12">
+        <br><br>
+    </div>
+    </div>
+     </header> 
+    <header>
+    <div class="row">
+    <div class="col-sm-2"> </div>
+    <div class="col-sm-8 alert alert-info">   
+        <h1> Random Quote Generator</h1>
+        <button id="btn" class="btn btn-default"> Generate a new quote!</button>
+    </div>
     
+    <div class="col-sm-2"> </div>    
+    </div>
+    </header>
+    
+    <div class="row">
+       <div class="col-sm-2"> </div>
+       
+        <div class="col-sm-8 ">
+           <h1>
+            <div id="divforAuthor" class="alert-info"> 
+            </div>
+           </h1>
+  
+        </div>
+        
+        <div class="col-sm-2"> </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-sm-2"> </div>
+        <div class="col-sm-8 alert info">
+           <blockquote>
+            <div id="divforQuote" class="alert-info"> </div>
+            </blockquote>
+        </div>
+        
+        <div class="col-sm-2"> </div>
+    </div>
 
+    <footer>
+        <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 btn"> Built by  <a href="http://github.com/mrdotdarko"> Alfie Darko</a>. Quote Machine API provided by
+        <a href="http//www.stormconsultancy.co.uk"> Storm Consultancy</a>.
+        </div>
+    </div>
+    </footer>
+    
 </body>
-<link rel="stylesheet" href="/Projects/Tier%25201/FCCFront%20End%20Quote%20Machine/assets/stylesheet.css">
-
-<blockquote id="qod-quote">
-   ... loading ...
-</blockquote>
-<script src="http://quotesondesign.com/api/3.0/api-3.0.js" 
-type="text/javascript" charset="utf-8"></script>
 
 </html>
+<link rel="stylesheet2" href="assets/styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="assets/quotescript.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
