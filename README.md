@@ -24,7 +24,7 @@ The greatest thing about the internet is the democratisation of information. Lik
 <del><li>Course: <a href="http://learn.shayhowe.com/html-css/">Learn to Code HTML &amp; CSS</a></li></del>
 <li>Project: Portfolio from the frontend section of FCC</li>
 <li>Course: <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!">Introduction to Computer Science - CS50</a></li>
-<li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&amp;%20grammar/README.md#you-dont-know-js-types--grammar">You Don't Know JS: Types &amp; Grammar</a></li>
+<del><li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&amp;%20grammar/README.md#you-dont-know-js-types--grammar">You Don't Know JS: Types &amp; Grammar</a></li></del>
 <li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&amp;%20performance/README.md#you-dont-know-js-async--performance">You Don't Know JS: Async &amp; Performance</a></li>
 <li>Book: <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&amp;%20beyond/README.md#you-dont-know-js-es6--beyond">You Don't Know JS: ES6 &amp; Beyond</a></li>
 <li>Course: <a href="http://learn.shayhowe.com/advanced-html-css/">Learn to Code Advanced HTML &amp; CSS</a></li>
